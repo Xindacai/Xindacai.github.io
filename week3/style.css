@@ -2,6 +2,10 @@
     color: hotpink;
 }
 
+body {
+    background-color: beige;
+}
+
 h1 {
     color: limegreen;
 }

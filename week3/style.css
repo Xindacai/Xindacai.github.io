@@ -1,3 +1,20 @@
+* {
+    color: hotpink;
+}
+
+h1 {
+    color: limegreen;
+}
+li {
+    color: purple;
+}
+h2 {
+    color: red;
+}
+h3 {
+    color: green;
+}
+/*
 h1 {
     color: blue;
 }
@@ -8,9 +25,12 @@ h3 {
     color: green;
 }
 p {
-  /* color: brown; */ 
-  /* front-weight: bold; */
+  color: brown; 
+  front-weight: bold;
 }
+*/
+
+/* 
 /* curly braces { } */
 /* square brackets []  #/
 /* parenthese <> */

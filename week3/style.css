@@ -2,8 +2,15 @@ h1 {
     color: blue;
 }
 h2 {
-    color: red;
+    color: yellow;
 }
 h3 {
     color: green;
 }
+p {
+  color: brown;  
+}
+/* curly braces { } */
+/* square brackets []  #/
+/* parenthese <> */
+/* round brackets () #/

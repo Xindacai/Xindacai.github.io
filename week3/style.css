@@ -8,9 +8,10 @@ h1 {
 li {
     color: purple;
 }
-h2 {
-    color: red;
-}
+/* h2 {
+  color: red;
+} */
+h2,.green-color,
 h3 {
     color: green;
 }

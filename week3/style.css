@@ -8,7 +8,8 @@ h3 {
     color: green;
 }
 p {
-  color: brown;  
+  /* color: brown; */ 
+  /* front-weight: bold; */
 }
 /* curly braces { } */
 /* square brackets []  #/
@@ -17,4 +18,3 @@ p {
  /* colon :  */
  /* semicolon ;  */
  /* syntax - rules of writing */
- 

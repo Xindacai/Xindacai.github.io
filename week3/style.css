@@ -25,9 +25,13 @@ section {
 }
 
 h1 {
-    color: limegreen;
+    color: rgb(3, 5, 43) 
     font-size: 3rem;
     text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 li {

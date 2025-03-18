@@ -7,9 +7,15 @@ body {
     color: gray;
 }
 
+section {
+  text-align: center;
+  border: 1px solid black;
+}
+
 h1 {
     color: limegreen;
 }
+
 li {
     color: purple;
 }

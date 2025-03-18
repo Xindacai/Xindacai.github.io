@@ -13,13 +13,16 @@ section {
   border: 1px solid black;
 }
 
-h1 {
-    color: limegreen;
+.green-border {
+    /* border: 3px dashed green; */
 }
 
-.green-border {
-    border: 3px dashed green;
+h1 {
+    color: limegreen;
+    font-size: 3rem;
+    text-transform: uppercase;
 }
+
 
 li {
     color: purple;

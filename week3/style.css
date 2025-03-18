@@ -5,6 +5,7 @@
 body {
     background-color: beige;
     color: gray;
+    font-size: 1.2rem;
 }
 
 section {
@@ -32,7 +33,7 @@ h3 {
 }
 
 .blue-color {
- color:blue;
+ color:red;
 }
 
 .yellow-color {

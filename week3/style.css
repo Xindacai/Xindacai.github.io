@@ -27,12 +27,13 @@ li {
 /* h2 {
   color: red;
 } */
-h2,.green-color,
+h2,
 h3 {
     color: green;
+    font-size: 1.4rem;
 }
 
-.blue-color {
+h1 {
  color:red;
 }
 

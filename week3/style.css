@@ -1,6 +1,9 @@
 * {
     color: hotpink;
 }
+.blue-color {
+    color: blue;
+}
 
 body {
     background-color: beige;

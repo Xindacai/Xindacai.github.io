@@ -16,6 +16,10 @@ h1 {
     color: limegreen;
 }
 
+.green-border {
+    border: 3px dashed green;
+}
+
 li {
     color: purple;
 }

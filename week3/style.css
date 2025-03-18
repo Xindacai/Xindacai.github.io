@@ -5,7 +5,11 @@
 body {
     background-color: beige;
     color: gray;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 section {
@@ -22,7 +26,6 @@ h1 {
     font-size: 3rem;
     text-transform: uppercase;
 }
-
 
 li {
     color: purple;

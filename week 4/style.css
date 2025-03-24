@@ -33,8 +33,9 @@ p {
     /* height 300 padding 20 300-20-20 */
 }
 
-span {
+.violet-color {
   color: blueviolet;
   /* display: block; */
-  display: none;
+  /* display: none; */
 }
+

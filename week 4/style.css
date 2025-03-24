@@ -32,3 +32,7 @@ p {
     line-height: 260px;
     /* height 300 padding 20 300-20-20 */
 }
+
+span {
+  color: blueviolet;
+}

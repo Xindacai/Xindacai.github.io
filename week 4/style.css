@@ -35,4 +35,6 @@ p {
 
 span {
   color: blueviolet;
+  /* display: block; */
+  display: none;
 }

@@ -10,8 +10,10 @@
      <link rel="stylesheet" href="reset.css" />
      <link rel="stylesheet" href="style.css" />
      <!-- lorem epsum -->
-     <!-- p>lorem30 -->>
+     <!-- p>lorem30 -->
 
+     <p class="vcenter">my paragraph</p>
+     <!-- p>lorem100 -->
      <p>
         Upon completion of this course, you will have a comprehensive understanding of the 
         key concepts of interactivity, user experience design, and information architecture 

@@ -7,3 +7,7 @@
    </head>
    <body>
      <h1>Learning box model</h1>
+     <link rel="stylesheet" href="reset.css" />
+     <link rel="stylesheet" href="style.css" />
+   </body>  
+</html>

@@ -8,6 +8,8 @@ body {
 h1 {
    font-size: 1.6rem;
    font-weight: 700;
+   margin-bottom: 20px;
+   margin-top: 40px;
 }
 
 p {

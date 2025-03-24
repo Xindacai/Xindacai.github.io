@@ -15,11 +15,14 @@ h1 {
 p {
   border: 1px solid crimson;
   width: 400px;
-  height: 200px;
-  margin: 0 auto; /* horizontal centering */  
+  min-height: 100px;
+  margin-left: 0 30px;
+  margin: 0 auto; 
+  /* horizontal centering */  
   /* padding-left: 20px;
   padding-bottom: 30px; */
   /* T R B L */
   /* padding: 20px 30px 20px 30px; */
   padding: 20px;
+  margin-bottom: 20px;
 }

@@ -28,5 +28,6 @@ p {
 }
 
 .vcenter {
-    line-height: 300px;
+    line-height: 260px;
+    /* height 300 padding 20 300-20-20 */
 }

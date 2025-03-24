@@ -1,0 +1,14 @@
+body {
+  /* font-size: 1rem; */
+  fonts-size: 16px
+  text-align: center;
+}
+
+h1 {
+   font-size: 1.6rem;
+   font-weight: 700;
+}
+
+p {
+  border: 1px solid crimson;  
+}

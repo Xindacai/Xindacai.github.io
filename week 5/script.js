@@ -9,5 +9,8 @@ let my ID = "s12345";
 console.log("Hi, my student id is", myID);
 myName = "abcd";
 console.log("Hi, I am", myName);
-let myNewName = prompt("What is your name");
+// let myNewName = prompt("What is your name");
+let myNewName = "Melbourne"
 console.log("Hello", myNewName);
+Let myCity = "Perth";
+console.log("Hello", myNewName, myCity);

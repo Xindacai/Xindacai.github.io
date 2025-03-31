@@ -14,3 +14,6 @@ let myNewName = "Melbourne"
 console.log("Hello", myNewName);
 Let myCity = "Perth";
 console.log("Hello", myNewName, myCity);
+
+// if you know the value is not going to change, define it using const
+// or else use let

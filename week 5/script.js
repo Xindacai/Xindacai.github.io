@@ -17,3 +17,9 @@ console.log("Hello", myNewName, myCity);
 
 // if you know the value is not going to change, define it using const
 // or else use let
+let a = 30;
+{
+    let a = 10;
+    console.log("Hello", a);
+}
+console.log("Hello", a);

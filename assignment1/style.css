@@ -139,3 +139,15 @@ for these texts, so the users can distinguish them from the main body texts. */
 webpage so that my layout looks predictable and easy to explore for
 its users. */
 
+.page-box {
+    background-color: #ffffff;     
+    border: 2px solid #ccc;       
+    border-radius: 16px;           
+    padding: 40px;               
+    max-width: 650px;             
+    margin: 40px auto;             
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /
+    /* I chose to add a page box that covers all available content throughout
+    my webpage because that will make the layout design of my webpage more visually
+    attractive and creative. */
+  }

@@ -2,7 +2,7 @@ h1 {
     font-family: "Underdog", system-ui;
     font-weight: 500;
     font-style: normal;    
-        font-size: 3rem;  
+        font-size: 2.8rem;  
         text-align: center;
     /* I chose the Underdog font for my main heading because
     it has an abstract and creative appearance so I think using
@@ -50,10 +50,10 @@ h3 {
 h4 {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 1050;
+    font-weight: 9050;
     font-style: italic;
     text-align: center;
-    font-size: 1.12rem
+    font-size: 1.13rem
 }
 
 h5 {
@@ -94,7 +94,7 @@ p {
     it's the perfect font for body text. */
     font-weight: 400;
     font-style: normal;  
-    max-width: 700px;
+    max-width: 600px;
     /* I limited the maximum width to make sure the texts don't look
     too spread out on my webpage. This way, it would my the website's
     layout tidier, and the texts would be easier to read. */
@@ -112,126 +112,8 @@ h6 {
     margin: 30px auto;
     font-size: 1.13rem    
 }
-
-h7 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h8 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h9 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h10 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h11 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h12 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h13 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h14 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h15 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h16 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h17 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
-
-h18 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin: 30px auto;
-    font-size: 1.13rem    
-}
+/* I made these texts more bold because I feel they could also act
+as subheadings. */
 
 /* I aligned all of my text elements and images to the center of my
 webpage so that my layout looks predictable and easy to explore for

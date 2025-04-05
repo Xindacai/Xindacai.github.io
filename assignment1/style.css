@@ -34,10 +34,36 @@ h3 {
     with the abstract appearance of the Underdog font 
     for my main heading. */ 
 
+    /* These 3 lines of text are my heading (first line) and
+   subheadings (following two lines). So I chose some fonts that
+   look bold and attractive for them and make their text size significantly
+   larger so that they could stand out more compared to my
+   body texts. In addition, I chose to use a different
+   font for each of the three headings just to add a sense
+   of playfulness to my webpage design and prevent the
+   texts from looking repetitive and boring. */
+h4 {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 1050;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.12rem
+}
+
+h5 {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 1050;
+    font-style: italic;
+    text-align: center;
+    font-size: 1rem
+}
+/*  */
+
     img {
         display: block;
-        margin: 30px auto;       /* centers the image and adds spacing */
-        width: 70%;              /* or 300px — adjust as needed */
-        max-width: 500px;        /* optional: keeps large images from being too big */
-        border-radius: 28px;     /* optional: smooth rounded corners */
+        margin: 30px auto;       
+        width: 40%;                
+        border-radius: 28px;
     }

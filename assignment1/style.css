@@ -34,10 +34,10 @@ h3 {
     with the abstract appearance of the Underdog font 
     for my main heading. */ 
 
-.small-image {
-    width: 500px    
-}
-
-.small-image {
-    width: 500px    
-}
+    img {
+        display: block;
+        margin: 30px auto;       /* centers the image and adds spacing */
+        width: 70%;              /* or 300px — adjust as needed */
+        max-width: 500px;        /* optional: keeps large images from being too big */
+        border-radius: 28px;     /* optional: smooth rounded corners */
+    }

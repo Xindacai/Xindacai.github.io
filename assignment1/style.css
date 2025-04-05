@@ -4,12 +4,17 @@ h1 {
     font-style: normal;    
         font-size: 3rem;  
         text-align: center;
-        color:
     /* I chose the Underdog font for my main heading because
     it has an abstract and creative appearance so I think using
     this font for my main heading will make it look very attractive
     and adds a sense of creativity and uniqueness to my webpage
     design. */    
+    max-width: 500px;
+    margin: 10px auto;
+    /* I adjusted the width of the heading so it won't appear too
+    large on the screen. */
+    
+    
 }
 h2 {
     font-family: "Fredoka", sans-serif;
@@ -57,17 +62,178 @@ h5 {
     font-weight: 1050;
     font-style: italic;
     text-align: center;
-    font-size: 1rem
+    font-size: 1.1rem
 }
-/*  */
+/* I made the fonts for my 4th and 5th headings somewhat bold compared to
+my body texts because they are also subheadings that will give important
+information so I want them to stand out. Once again, I chose a new
+font different from the ones I used for my previous headings to avoid
+repetition. I made the text size for these headings slightly smaller than
+those for my last 3 headings but slightly bigger than my body text.
+Because I feel these headings are less important and more closely connected
+with the content in my body paragraphs. In addition, I made the font style
+italic for these two headings so that they appear more stylish. */
 
     img {
         display: block;
-        margin: 30px auto;       
-        width: 40%;                
+        margin: 40px auto;        
+        width: 50%;
+        /* I used these spacing and width settings because feel they
+        look the best as they make sure my images are at a reasonable
+        size and the distance between each of them would not be too far
+        nor too close to each other. */                
         border-radius: 28px;
+        /* I added a border radius to my screenshots so that their
+        edges will appear smoother. */
     }
  
-p {
+p {   
+    font-family: "Adamina", serif; 
+    /* I chose this font for my body text because it looks stylish
+    but also clean and easily readable at the same time. So to me,
+    it's the perfect font for body text. */
+    font-weight: 400;
+    font-style: normal;  
+    max-width: 700px;
+    /* I limited the maximum width to make sure the texts don't look
+    too spread out on my webpage. This way, it would my the website's
+    layout tidier, and the texts would be easier to read. */
     text-align: center;
+    margin: 30px auto;
+    font size: 1rem
 }    
+
+h6 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h7 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h8 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h9 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h10 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h11 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h12 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h13 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h14 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h15 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h16 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h17 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+h18 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.13rem    
+}
+
+/* I aligned all of my text elements and images to the center of my
+webpage so that my layout looks predictable and easy to explore for
+its users. */
+

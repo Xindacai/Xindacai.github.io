@@ -67,3 +67,7 @@ h5 {
         width: 40%;                
         border-radius: 28px;
     }
+ 
+p {
+    text-align: center;
+}    

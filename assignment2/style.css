@@ -25,53 +25,19 @@
     justify-content: space-between;
   }
   
-  /* Add additional styles as needed */
-  
-  /* Create a container for the main content */
   .container {
     max-width: 1000px;
     width: 100%;
     padding: 10px;
   }
   
-  /* Header styling */
+
   header {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
     padding: 10px 0;
     text-align: center;
     width: 100%;
-  }
-  
-  /* Navigation styling */
-  nav {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: var(--text-color);
-  }
-  
-  /* Media player styling */
-  .media-player {
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  .media-player video {
-    max-width: 100%;
   }
   
   .custom-controls {

@@ -121,7 +121,13 @@ h3
   align-items: center;
   justify-content: center;
   margin: 0; 
+  transition: transform 0.2s ease; /* Smooth pop-up effect */
 }
+
+/* Hover pop-up effect */
+.play-btn:hover {
+    transform: scale(1.2); /* Enlarge slightly on hover */
+  }
 
 .track-controls .current-time,
 .track-controls .duration {

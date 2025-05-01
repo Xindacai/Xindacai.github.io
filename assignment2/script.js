@@ -21,21 +21,24 @@
     audio.src = src;
   
     playBtn.addEventListener('click', () => {
-      // Pause others
       document.querySelectorAll('audio').forEach(other => {
         if (other !== audio) other.pause();
       });
-  
+  /* The command below will ensure that my audio tracks show the pause logo when I play the
+  audio on them, and switch back to the play logo when I pause the music on each audio track. */
       if (audio.paused) {
         audio.play();
-        icon.src = 'icons8-pause-30.png'; // Swap to pause icon
+        icon.src = 'icons8-pause-30.png';
+        /* Shows the pause icon when the audio track is playing. */       
       } else {
         audio.pause();
-        icon.src = 'icons8-play-30.png'; // Swap back to play icon
+        icon.src = 'icons8-play-30.png';
+        /* Swap back to the play icon when the user pauses the audio. */ 
       }
     });
-  
-    // Time update for progress bar and timestamps
+    
+    /* The commands below will ensure that the time in my audio tracks' progress bars and 
+    timestamps will be updated as the user plays the audio in each track. */
     audio.addEventListener('timeupdate', () => {
       progress.max = Math.floor(audio.duration);
       progress.value = Math.floor(audio.currentTime);
@@ -51,7 +54,9 @@
       durationEl.textContent = '-' + formatTime(remaining);
     });
   
-    // Allow dragging the progress bar
+  /* This command below enables the user to drag the progress bar in the website's four audio
+  tracks that will allow them to jump straight to any section in the audio track that they
+  want. */  
     progress.addEventListener('input', () => {
       audio.currentTime = progress.value;
     });

@@ -38,8 +38,25 @@ look more organised and readable. */
     width: 100%;
     padding: 1px;
     border-radius: 30px;
+    align-items: center;
     /* I added a border radius, so the edges of the cover won't look so rough. */
   } 
+
+h2  
+{
+    max-width: 650px;
+
+}
+
+h3
+{
+    max-width: 650px; 
+}
+    /* I added a maximum width to my album's description texts to make sure they aren't
+    too spread out across my website which will make it hard to read for the user. I
+    also made sure that the width of this paragraph of text is the same as the
+    width of my audio tracks' layouts and album cover image above. This way, the website's
+    structure will always appear as neat and clean for the user as they scroll down. */
   
   .play-btn {
     background: none;

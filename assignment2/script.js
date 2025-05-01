@@ -4,10 +4,8 @@
   track. This interaction gives users feedback through changing button text, enhancing usability.
 
   CONTEXTUAL DESIGN CHOICE:
-  We intentionally restrict playback to one track at a time to simulate the behavior of
-  music streaming apps like Spotify. This was discussed as a user-centered interaction design
-  pattern during class.
-*/
+  I intentionally restricted playback to one track at a time to simulate the behavior of Spotify's
+  playlist page. */
 
 const tracks = document.querySelectorAll('.track');
 

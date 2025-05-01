@@ -35,7 +35,7 @@ website more attractive as it has a visually engaging image at the very top. -->
   
 <!-- In the layout of my website, I made sure the album cover art at the top is clearly separated
 from my playlist below. This will create a visual hierarchy which guides the user's eye from 
-artwork to interactions as they scroll down from the top. --> ????
+artwork to interactions as they scroll down from the top. --> 
     <div class="tracklist">
       <h2 id="tracks">Tracklist</h2>
   
@@ -47,7 +47,9 @@ artwork to interactions as they scroll down from the top. --> ????
             <button class="play-btn">
               <img src="icons8-play-30.png" alt="Play" class="play-icon" />
             </button>
+            <span class="current-time">0:00</span>
             <input type="range" class="progress" value="0" step="1" />
+            <span class="duration">-0:00</span>
           </div>
       
           <audio></audio>
@@ -62,7 +64,9 @@ artwork to interactions as they scroll down from the top. --> ????
               <button class="play-btn">
                 <img src="icons8-play-30.png" alt="Play" class="play-icon" />
               </button>
+              <span class="current-time">0:00</span>
               <input type="range" class="progress" value="0" step="1" />
+              <span class="duration">-0:00</span>
             </div>
         
             <audio></audio>
@@ -77,7 +81,9 @@ artwork to interactions as they scroll down from the top. --> ????
                   <button class="play-btn">
                     <img src="icons8-play-30.png" alt="Play" class="play-icon" />
                   </button>
+                  <span class="current-time">0:00</span>  
                   <input type="range" class="progress" value="0" step="1" />
+                  <span class="duration">-0:00</span>
                 </div>
             
                 <audio></audio>
@@ -92,7 +98,9 @@ artwork to interactions as they scroll down from the top. --> ????
                       <button class="play-btn">
                         <img src="icons8-play-30.png" alt="Play" class="play-icon" />
                       </button>
+                      <span class="current-time">0:00</span>
                       <input type="range" class="progress" value="0" step="1" />
+                      <span class="duration">-0:00</span>
                     </div>
                 
                     <audio></audio>
@@ -100,12 +108,19 @@ artwork to interactions as they scroll down from the top. --> ????
                 </div>    
     </div>
   </section>
+
 <!-- Each of these audio tracks in this tracklist include the track's cover on the left 
 (made in Canva) and track's name on the right, a play and pause button for control, and a 
 draggable progress bar that can take the user to any section inside the audio track's duration 
 depending on where the user drags it. These are mainly inspired by YouTube video and Spotify 
 playlist interfaces. These functionalities that I included for the audio tracks will fulfill 
 the requirement for the website's contextual interactivity as a music album. -->
+
+<!-- I also added timestamps on both sides of my progress bars for each audio track. Because
+I'm designing this website in the context of a music album, and all professional music apps
+like spotify and apple music would have this feature for their playlists. Adding timestamps
+will give my users more clarity on where they are in the duration of my audio track as they 
+drag the progress bar around, as well as how much time the music has left on its whole duration. -->
 
   <section class="about">
     <h2>About the Album</h2>

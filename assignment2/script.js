@@ -1,7 +1,7 @@
 /*
   TRACK INTERACTION LOGIC:
-  The script below enables individual play/pause functionality for each audio track.
-  This interaction gives users feedback through changing button text, enhancing usability.
+  The commands below will enable the user to use the play and pause functionality for each audio 
+  track. This interaction gives users feedback through changing button text, enhancing usability.
 
   CONTEXTUAL DESIGN CHOICE:
   We intentionally restrict playback to one track at a time to simulate the behavior of
@@ -37,7 +37,6 @@ tracks.forEach((trackDiv) => {
   });
 
   /*
-    SEEKBAR (PROGRESS BAR) LOGIC:
     Gives user control over playback — fulfilling the requirement for smooth transitions
     and usable interaction. The progress bar updates in real time and responds to dragging.
   */

@@ -77,6 +77,58 @@ look more organised and readable. */
     display: block;
   }  
 
+.track {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+/* Cover image beside track name */
+.track-cover {
+  width: 64px;
+  height: 64px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Song title + artist + buttons in vertical column */
+.track-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Style song name and artist */
+.track-title {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.track-artist {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+/* Keep play button and progress bar in line */
+.play-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.progress {
+  width: 100%;
+}
+
   header {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);

@@ -52,8 +52,8 @@ look more organised and readable. */
   }
   
   .play-icon {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     display: block;
   }  
 
@@ -77,8 +77,8 @@ look more organised and readable. */
 .track-info {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;      /* Allows it to expand horizontally */
-    width: 100%;       /* Ensures full width available inside .track */
+    flex-grow: 1;  
+    width: 100%;    
   }
 
 .track-controls {
@@ -106,9 +106,18 @@ look more organised and readable. */
   margin: 0; 
 }
 
+.track-controls .current-time,
+.track-controls .duration {
+  font-size: 1rem;
+  color: #fff;
+  width: 40px; 
+  text-align: center;
+  margin-bottom:-9px;
+}
+
 .progress {
     flex-grow: 1;    
-    height: 6px;
+    height: 5px;
     border-radius: 3px;
     cursor: pointer;
 /* I changed the cursor to pointer when it touches the progress bar rather than leaving it
@@ -118,10 +127,9 @@ for the user. */
     background-color: #ccc;
     border: none;
     width: auto;     
-    max-width: 100%;     
+    max-width: 100%;
+    margin-bottom:-6px;     
   }
-
-
 
   header {
     background-color: var(--main-bg-color);

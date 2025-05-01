@@ -61,6 +61,21 @@ look more organised and readable. */
     padding: 1px;
   } 
   
+  .play-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .play-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+  }  
 
   header {
     background-color: var(--main-bg-color);

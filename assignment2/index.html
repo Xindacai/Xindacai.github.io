@@ -10,7 +10,7 @@
   <body>
 
 <header class="hero">
-    <h1>Neon Dreams</h1>
+    <h1>Music Album</h1>
     <p>by Xinda Cai</p>
     <a href="#tracks" class="cta-btn">Listen Now</a>
 <!-- I added a call to action function to the words "Listen Now" and made it a clickable 
@@ -21,10 +21,17 @@ Because below the "tracklist" text will be a list of my playable music tracks wh
 website's main focus as it is a music album. -->
   </header>
   
-  <section id="tracks" class="album-section">
+  <section>
     <div class="artwork">
-      <img src="album-art.jpg" alt="Album Art" />
+      <img src="Xinda Cai (1).png" alt="Album Art" />
     </div>
+<!-- This is the cover photo for my music album and I made this using Canva. The layout of
+my website is inspired by the layout and design of Spotify's playlist section which also 
+includes an album cover and playlist name I at the very top of the page. That's why I chose 
+to include an album cover right below the title and author texts of my website, and made its
+size quite large. Because this way, the cover will be the become the first thing that the user
+will see when they go into my website, just like in Spotify's playlist page. This makes the 
+website more attractive as it has a visually engaging image at the very top. -->    
   
     <!--
       TRACKLIST STRUCTURE:
@@ -33,7 +40,7 @@ website's main focus as it is a music album. -->
       These controls offer minimal distraction while fulfilling the requirement for contextual interactivity.
     -->
     <div class="tracklist">
-      <h2>Tracklist</h2>
+      <h2 id="tracks">Tracklist</h2>
   
       <div class="track" data-src="https://thelongesthumstore.sgp1.cdn.digitaloceanspaces.com/IM-2250/p-hase_Hes.mp3">
         <p>01. Hes</p>
@@ -62,6 +69,17 @@ website's main focus as it is a music album. -->
               <button class="play-btn">Play</button>
               <input type="range" class="progress" value="0" step="1" />
             </div>
+
+            <div class="custom-controls">
+          <button id="play-pause-btn" onclick="togglePlayPause()">
+            <img
+              id="play-pause-img"
+              src="https://img.icons8.com/ios-glyphs/30/play--v1.png"
+              alt="Play Button"
+              width="24"
+              height="24"
+            />
+          </button>        
     </div>
   </section>
   
@@ -73,7 +91,8 @@ website's main focus as it is a music album. -->
   -->
   <section class="about">
     <h2>About the Album</h2>
-    <p>"Neon Dreams" explores the soundscape of twilight memories and distant cities...</p>
+    <p>This album explores a list of my favourite music tracks from various artists. 
+    All of these tracks will give either a relaxed or ominous feeling.</p>
   </section>
   
   
@@ -87,22 +106,14 @@ website's main focus as it is a music album. -->
               height="24"
             />
           </button>
-          <!-- add the missing buttons or functionality here -->
           <div class="progress-bar">
             <span id="progress-bar-fill"></span>
           </div>
         </div>
       </div>
 
-      <!-- Additional Content Section -->
-      <section>
-        <h2>Additional Content</h2>
-        <p>This is where you can showcase any other relevant content.</p>
-        <!-- Add more content as needed -->
-      </section>
     </main>
 
-    <!-- Footer Section -->
     <footer>
       <p>&copy; 2024 Media Player Website. All rights reserved.</p>
       <a href="https://icons8.com/icon/59862/play">Play</a> icon by

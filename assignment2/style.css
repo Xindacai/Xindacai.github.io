@@ -21,7 +21,7 @@
   to the user and make these track designs look more professional and visually attractive. */
   padding: 1rem;
   margin-bottom: 1.7rem; 
-  /* I added this to separate each of my music track further away from each other veritcally
+  /* I added this to separate each of my four music track further away from each other veritcally
   to ensure each audio track will be easier for the user to see and interact with. Because
   this way, they won't get too cramped up between each other on my website layout. */
   border-radius: 10px;
@@ -29,6 +29,13 @@
 /* I added a border radius and a bit of shadow to these rectangular boxes to make their borders
 and edges look smoother. */
 }
+
+.track button {
+  margin-top: 0.5rem;
+}
+/* I added this command so I can include a bit of vertical distance between the music name and 
+its play button and progress bar. This will also make the layout of each of my audio track
+look more organised and readable. */
   
   body {
     font-family: "Arial", sans-serif;

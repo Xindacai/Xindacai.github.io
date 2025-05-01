@@ -121,13 +121,23 @@ h3
   align-items: center;
   justify-content: center;
   margin: 0; 
-  transition: transform 0.2s ease; /* Smooth pop-up effect */
+  transition: transform 0.2s ease; 
+  /* This transition will make the pop up effect I explained below look a lot 
+  smoother. */
 }
 
-/* Hover pop-up effect */
 .play-btn:hover {
-    transform: scale(1.2); /* Enlarge slightly on hover */
+    transform: scale(1.2); 
+    /* This command ensures that the play and pause buttons will enlarge slightly 
+    when my cursor hovers over them, creating a pop-up effect. */
   }
+/* In the commands above, I added a smooth pop-up effect to the play and pause buttons
+on my audio tracks. I think this function is an important user feedback mechanism for a 
+music album website because it clearly tells the user when they have selected those
+buttons and can click on them. In addition, this effect adds a creative element to the
+website's design as it makes the user experience more fun and engaging. */
+
+/* I also applied this effect to the progress bar on each audio track. */
 
 .track-controls .current-time,
 .track-controls .duration {
@@ -151,8 +161,12 @@ for the user. */
     border: none;
     width: auto;     
     max-width: 100%;
-    margin-bottom:-6px;     
+    margin-bottom:-6px;
+    transition: transform 0.2s ease;     
   }
+
+  .progress:hover {
+    transform: scale(1.08);}  
 
   header {
     background-color: var(--main-bg-color);

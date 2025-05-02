@@ -22,17 +22,18 @@ its play button and progress bar. This will also make each audio track's layout
 look more organised and readable. */
   
   body {
-    font-family: "Arial", sans-serif;
-    background-color: var(--primary-bg-color);
-    color: var(--text-color);
-    line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px; / Base size for body text */
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
   
-  img
+  .artwork img
   {
     max-width: 650px;
     width: 100%;
@@ -40,6 +41,7 @@ look more organised and readable. */
     border-radius: 30px;
     align-items: center;
     /* I added a border radius, so the edges of the cover won't look so rough. */
+    margin-top: 2rem;
   } 
 
 h2  
@@ -113,7 +115,7 @@ h3
 
 .play-btn {
   background-color: #333;
-  padding: 2px 4px;
+  padding: 3px 6px;
   border-radius: 6px;
   cursor: pointer;
   margin-bottom: 0.5rem;

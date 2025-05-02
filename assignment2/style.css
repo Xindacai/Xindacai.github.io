@@ -1,10 +1,34 @@
+/* Since the design of my music album is mainly inspired by the layout of Spotify playlists, the
+color design of my website will mainly consist of different levels of dark grey colors, similar 
+to the color design of Spotify playlists. I think dark background colors are the most visually 
+comfortable for users since they won't be too bright to hurt someone's eyes, and they also 
+provide a relaxing mood. */
+
 :root {
-    --primary-bg-color: #f4f4f4;
-    --text-color: #333;
-    --main-bg-color: #333;
-    --main-text-color: #fff;
-    --main-btn-bg-color: #938989;
+    --primary-bg-color: #121212;
+    /* I chose this color for the background because it is dark enough to resemble 
+    Spotify’s deep aesthetic. It also gives the user a relaxing mood. */
+    --text-color: #FFFFFF;            
+    /* I made the text colors white becausae it stands in great contrast against the dark 
+    bacakground which makes them clearly readable for the user. */  
+    --main-bg-color: #181818; 
+    /* I made the grey color of my header's and footer's background slightly lighter than the
+    primary background's color for the website. This way, the user will easily know where the
+    website starts and ends since the brighter grey color that stands in contrast with the darker
+    primary background will act as key labels for the website's boundaries. */
   }
+
+  /* Apply color styling to body */
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+}
+
+/* Header and footer sections */
+header, footer {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
   
   body,
   h1,
@@ -89,6 +113,8 @@ h4
   align-items: center;
   gap: 1rem;
   background-color: #1e1e1e;
+  /* I added a lighter grey for the background of my audio tracks because it creates good contrast
+  with both the darker grey of the main background, as well as the white texts. */
   padding: 1rem;
   border-radius: 12px;
   /* I added a border radius to these rectangular boxes to make their edges look smoother. */
@@ -137,6 +163,7 @@ h4
     transform: scale(1.2); 
     /* This command ensures that the play and pause buttons will enlarge slightly 
     when my cursor hovers over them, creating a pop-up effect. */
+    background-color: #1ed760; /* Slightly brighter green on hover */
   }
 /* In the commands above, I added a smooth pop-up effect to the play and pause buttons
 on my audio tracks. I think this function is an important user feedback mechanism for a 
@@ -145,6 +172,25 @@ buttons and can click on them. In addition, this effect adds a creative element 
 website's design as it makes the user experience more fun and engaging. */
 
 /* I also applied this effect to the progress bar on each audio track. */
+
+.cta-btn {
+    background-color: #11d857;
+    color: #000; 
+    padding: 0.3rem 0.6rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+/* I made the "Listen Now" texts black and surrounded by a green background I feel like
+that while the overall appearance of my website should be dark, it can also be interesting
+to add a little bit of bright and interesting colors at some point throughout the website.
+This will make sure that the website's overall mood wouldn't become too boring even if it's
+mostly dark. I feel like the green color can sometimes act as surprise elements that can
+immediately capture the user's attention and motivate them to keep scrolling down the website. */
+
+/* This is why I also added a similar green color to my audio tracks' play buttons which will show
+when the user's cursor hovers over it. */
 
 .track-controls .current-time,
 .track-controls .duration {
@@ -165,6 +211,9 @@ as default. Because this way it will be easier for the user to know right away w
 the progress bar selected and can drag it around. Hence, improving the website's accessibility
 for the user. */
     background-color: #ccc;
+/* I added a light grey (or maybe closer to white) color for the progress bar so it will stand in
+sharp contrast against the overall dark layout of the webpage, making it easily visible for the
+user. */    
     border: none;
     width: auto;     
     max-width: 100%;

@@ -82,4 +82,3 @@
       audio.currentTime = progress.value;
     });
   });
-  

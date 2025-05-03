@@ -162,7 +162,7 @@ h4
 }
 
 .play-btn:hover {
-    transform: scale(1.2); 
+    transform: scale(1.14); 
     /* This command ensures that the play and pause buttons will enlarge slightly 
     when my cursor hovers over them, creating a pop-up effect. */
     background-color: #1ed760; /* Slightly brighter green on hover */
@@ -224,7 +224,7 @@ user. */
   }
 
   .progress:hover {
-    transform: scale(1.08);}  
+    transform: scale(1.06);}  
 
   header {
     background-color: var(--main-bg-color);
@@ -260,6 +260,8 @@ website. */
 h1 {
   font-size: 4rem;
   font-weight: 800;
+/* I made this text larger and bolder than any other texts in my website because this is the title
+so I want it to stand out the most. */  
 }
 
 /* Section Title (Tracklist) */
@@ -303,4 +305,7 @@ footer, footer p,
 footer a {
   font-size: 0.875rem;
   font-weight: 400;
+/* I made these texts the smallest and lightest out of all the texts on the website because
+they are just crediting the external assets that I used for this website's design, rather than
+being part of the main content on my website. So, I don't want them to stand out. */  
 }

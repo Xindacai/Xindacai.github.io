@@ -56,6 +56,7 @@ body {
   font-family: var(--font-secondary);
   border: 1px solid #ccc;
   border-radius: 4px;
+  /* I added a border radius so the edges of my search bar look smoother. */
 }
 
 /* === PRODUCT GRID === */

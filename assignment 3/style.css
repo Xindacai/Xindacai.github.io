@@ -31,6 +31,9 @@ body {
   font-family: var(--font-display);
   font-size: 2rem;
   font-weight: 700;
+  /* I made my logo text extra-large and bold because the logo is what represents my webpage 
+  so its text should be one of my webpage's biggest attractions and visually stand out the most
+  compared to some other elements of my page. */
   color: var(--accent-color);
 }
 

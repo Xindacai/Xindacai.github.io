@@ -29,7 +29,7 @@ body {
 
 .logo {
   font-family: var(--font-display);
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
   /* I made my logo text extra-large and bold because the logo is what represents my webpage 
   so its text should be one of my webpage's biggest attractions and visually stand out the most
@@ -38,12 +38,37 @@ body {
 }
 
 .main-nav a {
-  margin: 0 1rem;
+  margin: 1rem;
   text-decoration: none;
   font-weight: 500;
   font-family: var(--font-primary);
   color: var(--accent-color);
   transition: color 0.3s ease;
+  font-size: 1.2rem;
+  /* The category texts are slightly smaller and lighter than my logo and product section texts
+  because while these features are undoubtedly important for an effective user experience, they
+  aren't part of the main section (which is where my thumbnails are listed). But they are only
+  there as assisting tools to bring users to different category pages. So while these fonts
+  should be large enough to be easily visible, I don't want them to visually stand out more 
+  than my logo and product section titles. */
+  text-align:center; 
+}
+
+.product-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-family: var(--font-display); 
+  font-size: 1.6rem;
+  /* I also made the text size for my product titles above each row of thumbnails quite large and
+  bold because they part of the website's major visual attraction as they act as headings for 
+  the products in each row of thumbnails in my homepage and category pages. */
+  font-weight: 700;
+  color: var(--accent-color);
+  margin: 2rem auto 1rem;
+  max-width: 1200px;
+  padding: 0 2rem;
 }
 
 .main-nav a:hover {
@@ -52,7 +77,7 @@ body {
 
 .search-bar input {
   padding: 0.5rem;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-family: var(--font-secondary);
   border: 1px solid #ccc;
   border-radius: 4px;

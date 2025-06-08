@@ -69,6 +69,10 @@ body {
   margin: 2rem auto 1rem;
   max-width: 1200px;
   padding: 0 2rem;
+  /* Originally, in my presentation, I planned to include those titles in the centre of the page. 
+  But after I tried that in practice, it looked very random to my website's overall design and
+  wasn't as good as I expected. That's why I have now decided to move it to the left, which makes 
+  it look a lot neater and more organised. */
 }
 
 .main-nav a:hover {
@@ -84,7 +88,6 @@ body {
   /* I added a border radius so the edges of my search bar look smoother. */
 }
 
-/* === PRODUCT GRID === */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -92,6 +95,7 @@ body {
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  /* This is the grid structure for my thumbnail list. */
 }
 
 .product-card {

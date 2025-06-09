@@ -1,7 +1,8 @@
-/* The layout in this CSS is a copy from my website's homepage, where they share the same sizes and
-positions for the category text, logo text, and footer. This CSS is used for my cart and product
-pages, to ensure that the top and bottom of these pages still remain the same as that of the
-homepage, to maintain a sense of visual consistency through the webpage's design. */
+/* The layout in this CSS is a copy from my website's homepage, where they share the same sizes.
+positions, and hover settings for the category text, logo text, footer and the background. This 
+CSS is used for my cart and product pages, to ensure that the top and bottom designs of these 
+pages still remain the same as that of the homepage, to maintain a sense of visual consistency 
+through the webpage's design. */
 :root {
     --main-bg: #ffffff;
   --accent-color: #1a1a1a;
@@ -13,7 +14,6 @@ homepage, to maintain a sense of visual consistency through the webpage's design
   /* These variables ensure consistent font and color themes across the site. */
 }
 
-/* === BASIC PAGE RESET === */
 body {
   margin: 0;
   padding: 0;

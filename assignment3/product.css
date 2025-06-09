@@ -194,12 +194,17 @@ my design looking overcrowded. */
   font-weight: 700;
   margin-bottom: 1rem;
   color: var(--accent-color);
+/* Out of all text elements in my products page, the product title is the largest and boldest
+because the title should be the webpage's main attraction, so it should stand out the most. */  
 }
 
-/* Product price */
 .product-price {
   font-family: var(--font-primary);
   font-size: 1.4rem;
+/* I made the product's pricing text slightly smaller than the title text and lighter in color
+and weight, but still quite large compared to my other text elements. Because the product's
+price is also an important piece of information for the user, I want to make it easy for them
+to see it. */  
   margin-bottom: 1.5rem;
 }
 
@@ -211,27 +216,31 @@ my design looking overcrowded. */
   line-height: 1.6;
 }
 
-/* Add to cart button */
 .add-to-cart-btn {
   font-family: var(--font-primary);
   background-color: var(--accent-color);
   color: #fff;
   font-size: 1rem;
-  padding: 0.75rem 1.5rem;
+  padding: 0.6rem 1.2rem;
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  /* This provides user feedback when the cursor is hovered over the button, which tells the user
+  they have selected the button. */
   margin-top: 1rem;
   margin-bottom: 1.5rem;
   transition: background-color 0.3s ease;
-  width: fit-content;
+  width: auto; 
+  align-self: flex-start;
+  /* This command makes sure that the button's background wouldn't become overstretched across the
+  screen. */
 }
 
 .add-to-cart-btn:hover {
   background-color: #333333;
+ /* The color change provides visual feedback when the user hovers over the add to cart button. */ 
 }
 
-/* Size selector label and dropdown */
 .size-label {
   font-family: var(--font-secondary);
   font-size: 0.95rem;
@@ -248,7 +257,6 @@ my design looking overcrowded. */
   max-width: 200px;
 }
 
-/* === RESPONSIVE DESIGN === */
 @media (max-width: 768px) {
   .product-detail-container {
     flex-direction: column;

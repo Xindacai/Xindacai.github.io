@@ -187,12 +187,14 @@ my design looking overcrowded. */
   padding: 0.75rem 0;
 }
 
-/* === FOOTER === */
 .site-footer {
   background-color: var(--light-gray);
   text-align: center;
   padding: 1rem;
   font-size: 0.8rem;
+  /* I used the smallest text sizes for the footer section out of all text elements I have 
+  throughout the website's design because this section isn't part of the webpage's main content. 
+  So, I want them to stand out the least. */
   color: #666;
 ... (2 lines left)
 }

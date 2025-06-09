@@ -1,10 +1,10 @@
 /* The layout in this CSS is a copy from my website's homepage, where they share the same sizes.
 positions, and hover settings for the category text, logo text, footer and the background. This 
-CSS is used for my cart and product pages, to ensure that the top and bottom designs of these 
+CSS is used for my cart, product, and checkout pages, to ensure that the top and bottom designs of these 
 pages still remain the same as that of the homepage, to maintain a sense of visual consistency 
 through the webpage's design. */
 
-/* However, despite my effort to apply consistent global styling across both my product and cart 
+/* However, despite my effort to apply consistent global styling across my product, cart, and checkout 
 pages, slight visual discrepancies remained, which I think is due to some kind of rendering 
 bugs which created differences between 
 HTML elements or browser defaults. After thorough debugging and code review, I concluded that 

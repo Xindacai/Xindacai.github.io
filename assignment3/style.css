@@ -119,14 +119,11 @@ my design looking overcrowded. */
   website's major visual attraction, as they act as headings for the products in each row of 
   thumbnails on my homepage and category pages. */
   font-weight: 700;
+  text-align:center;
   color: var(--accent-color);
   margin: 2rem auto 1rem;
   max-width: 1200px;
   padding: 0 2rem;
-  /* Originally, in my presentation, I planned to include those titles in the centre of the page. 
-  But after I tried that in practice, it looked very random to my website's overall design and
-  wasn't as good as I expected. That's why I have now decided to move it to the left, which makes 
-  it look a lot neater and more organised. */
 }
 
 .main-nav a:hover {

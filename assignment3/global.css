@@ -3,6 +3,15 @@ positions, and hover settings for the category text, logo text, footer and the b
 CSS is used for my cart and product pages, to ensure that the top and bottom designs of these 
 pages still remain the same as that of the homepage, to maintain a sense of visual consistency 
 through the webpage's design. */
+
+/* However, despite my effort to apply consistent global styling across both my product and cart 
+pages, slight visual discrepancies remained, which I think is due to some kind of rendering 
+bugs which created differences between 
+HTML elements or browser defaults. After thorough debugging and code review, I concluded that 
+this is a common visual glitch in web development that doesn’t affect core functionality, and 
+I chose to prioritise usability and consistency over pixel-perfect uniformity. Because I've tried
+everything to fix this issue, but it seems like it's out of my capability because nothing is
+working. */
 :root {
     --main-bg: #ffffff;
   --accent-color: #1a1a1a;

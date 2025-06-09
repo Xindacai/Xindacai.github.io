@@ -54,8 +54,8 @@ body {
 
 .logo:hover {
   opacity: 0.85;  
-  /* This gives my logo a subtle visual feedback when being hovered on, which aligns with my
-  chosen action of using hover for  */
+  /* This gives my logo a subtle visual feedback when being hovered on, which reminds the user
+  that the element is selected and they can click on it to explore another page. */
 }
 
 .main-nav a {
@@ -76,7 +76,7 @@ body {
 }
 
 .product-section {
-  margin-bottom: 3rem;
+  margin-bottom: 2.8rem;
 /* This adds more vertical spacing between my top and bottom rows of thumbnails, which avoids
 my design looking overcrowded. */  
 }

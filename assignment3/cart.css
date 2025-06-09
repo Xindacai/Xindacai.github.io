@@ -1,122 +1,101 @@
-:root {
-  --main-bg: #ffffff;
-  --accent-color: #1a1a1a;
-  --text-color: #333333;
-  --light-gray: #f5f5f5;
-  --font-primary: 'Lexend', sans-serif;
-  --font-secondary: 'Work Sans', sans-serif;
-  --font-display: 'Roboto Slab', serif;
+.cart-main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
 }
 
-/* All of these fonts align with my intention of creating a professional, modern shopping site
-styled webpage because they offer clean and simple looks. */
-
-/* I didn't want to use a different font for every single one of my text element because that will
-make my webpage's design look messy and random, which can overwhelm the user. */
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: var(--font-secondary);
-  background-color: var(--main-bg);
-  color: var(--text-color);
-}
-
-/* This is for the layout of the header section on the top of my webpage. */
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.2rem 2rem;
-  background-color: var(--light-gray);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  text-decoration: none;        
-  /* My logo text originally had some strange underlines before because I set it as a clickable
-  link. So this command removes that underline and makes my logo look cleaner. */
-  color: var(--accent-color);   
-  background-color: #e4e4e4;    
-  /* I added a light grey rectangular background box behind my logo text to make it look logo-like
-  while still maintaining a clean and simple design without visually overwhelming the user. Because
-  having text alone doesn't make it look obvious enough to represent a logo. */
-  padding: 0.3rem 0.7rem;       
-  /* I added a bit of vertical and horizontal distance between the text and background box so they
-  aren't too close to each other. */
-  border-radius: 8px;           
-  /* I added a border radius so the edges of the logo's background look smoother. */
-  display: inline-block;  
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
-  /* I also added a bit of box shadow which makes my background box show more depth in color 
-  design. */
+.cart-title {
   font-family: var(--font-display);
   font-size: 2rem;
   font-weight: 700;
-  /* I made my logo text extra-large and bold because the logo is what represents my webpage 
-  so its text should be one of my webpage's biggest attractions and visually stand out the most
-  compared to some other elements of my page. */
-}
-
-.logo:hover {
-  opacity: 0.85;  
-  /* This gives my logo subtle visual feedback of increased transparency when being hovered on, 
-  which reminds the user that the element is selected, and they can click on it to explore the 
-  homepage. */
-}
-
-.main-nav a {
-  margin: 1rem;
-  text-decoration: none;
-  font-weight: 500;
-  font-family: var(--font-primary);
+  margin-bottom: 2rem;
   color: var(--accent-color);
-  transition: color 0.3s ease;
-  font-size: 1.2rem;
-  /* The category texts are slightly smaller and lighter than my logo and product section texts
-  because while these features are undoubtedly important for an effective user experience, they
-  aren't part of the main section (which is where my thumbnails are listed). But they are only
-  there as assisting tools to bring users to different category pages. So while these fonts
-  should be large enough to be easily visible, I don't want them to visually stand out more 
-  than my logo and product section titles. */
-  text-align:center; 
+  /* I made the title text extra-large and bold to create a clear visual hierarchy, so I want my 
+  title text to stand out the most on the page. */
 }
 
-.product-section {
-  margin-bottom: 2.8rem;
-/* This adds more vertical spacing between my top and bottom rows of thumbnails, which avoids
-my design looking overcrowded. */  
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
-.section-title {
-  font-family: var(--font-display); 
-  font-size: 1.6rem;
-  /* I also made the text size for my product titles above each row of thumbnails quite large and
-  bold, as almost equally large and bold compared to my logo text. Because they are part of the 
-  website's major visual attraction, as they act as headings for the products in each row of 
-  thumbnails on my homepage and category pages. */
+.cart-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.cart-item-img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-info {
+  flex-grow: 1;
+}
+
+.item-name,
+.item-size,
+.item-price {
+  font-family: var(--font-secondary);
+  margin: 0.3rem 0;
+}
+
+.remove-btn {
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font-primary);
+  transition: all 0.2s ease;
+}
+
+.remove-btn:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #eee;
+  padding-top: 1rem;
+}
+
+.total-label {
+  font-weight: 600;
+  font-family: var(--font-secondary);
+}
+
+.total-price {
   font-weight: 700;
   text-align:center;
-  color: var(--accent-color);
-  margin: 2rem auto 1rem;
-  max-width: 1200px;
-  padding: 0 2rem;
+  font-family: var(--font-primary);
 }
 
-.main-nav a:hover {
-  color: #888;
-  /* This gives my category texts at the top of the page a subtle visual feedback of color change 
-  when being hovered on, which reminds the user that the element is selected, and they can click on 
-  it to explore the page of each category. */
-}
-
-.search-bar input {
-  padding: 0.5rem;
+.checkout-btn {
+  font-family: var(--font-primary);
+  background-color: var(--accent-color);
+  color: #fff;
   font-size: 1rem;
-  font-family: var(--font-secondary);
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  /* I added a border radius so the edges of my search bar look smoother. */
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #333;
 }
 
 .site-footer {
@@ -124,146 +103,23 @@ my design looking overcrowded. */
   text-align: center;
   padding: 1rem;
   font-size: 0.8rem;
-  /* I used the smallest text sizes for the footer section out of all text elements I have 
-  throughout the website's design because this section isn't part of the webpage's main content. 
-  So, I want them to stand out the least. */
   color: #666;
-... (2 lines left)
-}
-
-.product-detail-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 3rem 2rem;
-  max-width: 1200px;
-  margin: auto;
-/* This is the layout for the product page section. */  
-}
-
-.product-images {
-  flex: 1;
-  min-width: 300px;
-  text-align: center;
-}
-
-.main-product-img {
-  width: 100%;
-  max-width: 500px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Right side info styling */
-.product-info {
-  flex: 1;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 1rem;
-}
-
-/* Product title */
-.product-title {
-  font-family: var(--font-display);
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: var(--accent-color);
-/* Out of all text elements in my products page, the product title is the largest and boldest
-because the title should be the webpage's main attraction, so it should stand out the most. */  
-}
-
-.product-price {
-  font-family: var(--font-primary);
-  font-size: 1.4rem;
-/* I made the product's pricing text slightly smaller than the title text and lighter in color
-and weight, but still quite large compared to my other text elements. Because the product's
-price is also an important piece of information for the user, I want to make it easy for them
-to see it. */  
-  margin-bottom: 1.5rem;
-}
-
-/* Product description */
-.product-description {
-  font-family: var(--font-secondary);
-  font-size: 1rem;
-  margin-bottom: 2rem;
-  line-height: 1.6;
-}
-
-.size-label {
-  font-family: var(--font-secondary);
-  font-size: 0.95rem;
-  margin-bottom: 0.5rem;
-}
-
-.add-to-cart-btn {
-  font-family: var(--font-primary);
-  background-color: var(--accent-color);
-  color: #fff;
-  font-size: 1rem;
-  padding: 0.6rem 1.2rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  /* This provides user feedback when the cursor is hovered over the button, which tells the user
-  they have selected the button. */
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-  transition: background-color 0.3s ease;
-  width: auto; 
-  align-self: flex-start;
-  /* This command makes sure that the button's background wouldn't become overstretched across the
-  screen. */
-}
-
-.add-to-cart-btn:hover {
-  background-color: #333333;
- /* The color change provides visual feedback when the user hovers over the add to cart button. */ 
-}
-
-.size-dropdown {
-  padding: 0.5rem;
-  font-family: var(--font-secondary);
-  font-size: 1rem;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  width: 100%;
-  max-width: 200px;
-  margin-bottom: 1rem;
-  /* I added a bit of space between my size selector and add to cart button, so they aren't too
-  clustered towards each other. */
 }
 
 @media (max-width: 768px) {
-  .product-detail-container {
+  .cart-item {
     flex-direction: column;
     align-items: center;
-  }
-
-  .product-title {
-    font-size: 1.8rem;
-  }
-
-  .product-price {
-    font-size: 1.3rem;
-  }
-
-  .add-to-cart-btn {
-    width: 100%;
     text-align: center;
   }
+
+  .cart-summary {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .checkout-btn {
+    width: 100%;
+  }
 }
-
-/*
-This CSS ensures the product page visually aligns with the homepage and category pages, maintaining a clean, professional, and organized user experience.
-
-- Fonts are reused consistently across text elements to build branding identity.
-- The layout prioritizes product visuals and essential interaction features like size selection and "Add to Cart".
-- Responsiveness ensures the layout remains functional across screen sizes.
-- Hover effects offer subtle feedback without overwhelming the user.
-
-These design choices are based on standard UI/UX practices for commercial shopping websites and reflect the user-first goals discussed in the presentation.
-*/

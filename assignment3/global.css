@@ -1,0 +1,84 @@
+:root {
+  --main-bg: #ffffff;
+  --accent-color: #1a1a1a;
+  --text-color: #333333;
+  --light-gray: #f5f5f5;
+  --font-primary: 'Lexend', sans-serif;
+  --font-secondary: 'Work Sans', sans-serif;
+  --font-display: 'Roboto Slab', serif;
+  /* These variables ensure consistent font and color themes across the site. */
+}
+
+/* === BASIC PAGE RESET === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-secondary);
+  background-color: var(--main-bg);
+  color: var(--text-color);
+}
+
+/* === HEADER SECTION === */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: var(--light-gray);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--accent-color);
+  background-color: #e4e4e4;
+  padding: 0.3rem 0.7rem;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  /* Styled for emphasis as the brand’s identity. */
+}
+
+.logo:hover {
+  opacity: 0.85;
+  /* Hover feedback helps signal interactivity. */
+}
+
+.main-nav a {
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: var(--font-primary);
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.main-nav a:hover {
+  color: #888;
+  /* I added a subtle visual feedback here for better UX. */
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: var(--font-secondary);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.site-footer {
+  background-color: var(--light-gray);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  /* I used the smallest text sizes for the footer section out of all text elements I have 
+  throughout the website's design because this section isn't part of the webpage's main content. 
+  So, I want them to stand out the least. */
+  color: #666;
+... (2 lines left)
+}

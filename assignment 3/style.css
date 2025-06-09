@@ -1,4 +1,3 @@
-/* === GLOBAL STYLES === */
 :root {
   --main-bg: #ffffff;
   --accent-color: #1a1a1a;
@@ -17,7 +16,7 @@ body {
   color: var(--text-color);
 }
 
-/* === HEADER === */
+/* This is for the layout of the header section on the top of my webpage. */
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -28,13 +27,35 @@ body {
 }
 
 .logo {
+  text-decoration: none;        
+  /* My logo text originally had some strange underlines before because I set it as a clickable
+  link. So this command removes that underline and makes my logo look cleaner. */
+  color: var(--accent-color);   
+  background-color: #e4e4e4;    
+  /* I added a light grey rectangular background box behind my logo text to make it look logo-like
+  while still maintaining a clean and simple design without visually overwhelming the user. Because
+  having text alone doesn't make it look obvious enough to represent a logo. */
+  padding: 0.3rem 0.7rem;       
+  /* I added a bit of vertical and horizontal distance between the text and background box so they
+  aren't too close to each other. */
+  border-radius: 8px;           
+  /* I added a border radius so the edges of the logo's background look smoother. */
+  display: inline-block;  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+  /* I also added a bit of box shadow which makes my background box show more depth in color 
+  design. */
   font-family: var(--font-display);
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 700;
   /* I made my logo text extra-large and bold because the logo is what represents my webpage 
   so its text should be one of my webpage's biggest attractions and visually stand out the most
   compared to some other elements of my page. */
-  color: var(--accent-color);
+}
+
+.logo:hover {
+  opacity: 0.85;  
+  /* This gives my logo a subtle visual feedback when being hovered on, which aligns with my
+  chosen action of using hover for  */
 }
 
 .main-nav a {
@@ -56,14 +77,17 @@ body {
 
 .product-section {
   margin-bottom: 3rem;
+/* This adds more vertical spacing between my top and bottom rows of thumbnails, which avoids
+my design looking overcrowded. */  
 }
 
 .section-title {
   font-family: var(--font-display); 
   font-size: 1.6rem;
   /* I also made the text size for my product titles above each row of thumbnails quite large and
-  bold because they part of the website's major visual attraction as they act as headings for 
-  the products in each row of thumbnails in my homepage and category pages. */
+  bold, as almost equally large and bold compared to my logo text. Because they are part of the 
+  website's major visual attraction, as they act as headings for the products in each row of 
+  thumbnails on my homepage and category pages. */
   font-weight: 700;
   color: var(--accent-color);
   margin: 2rem auto 1rem;
@@ -89,13 +113,16 @@ body {
 }
 
 .product-grid {
+  /* This is the grid structure for my thumbnail list. */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 2rem;
   padding: 2rem;
+  /* I gave slight horizontal spacing between each of the thumbnail frames and vertical spacing
+  between the thumbnail frames and their title above. This makes the layout of my thumbnail list
+  more organised and avoids everything being clustered together. */
   max-width: 1200px;
   margin: 0 auto;
-  /* This is the grid structure for my thumbnail list. */
 }
 
 .product-card {
@@ -110,6 +137,7 @@ body {
 
 .product-card:hover {
   transform: translateY(-4px);
+  /* This make my thumbnail images move slightly upwards when being hovered on */
 }
 
 .product-img {

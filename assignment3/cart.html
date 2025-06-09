@@ -1,0 +1,60 @@
+<!-- This is the cart page that users are redirected to after clicking "Add to Cart". It shows 
+     all the products they’ve added, allowing them to review and remove items or continue shopping. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart - QuickPick</title>
+  <link rel="stylesheet" href="cart.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Work+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <!-- Font choices remain consistent with the rest of the site for brand uniformity. -->
+</head>
+<body>
+
+  <header class="main-header">
+    <a href="index.html" class="logo">QuickPick</a>
+    <nav class="main-nav">
+      <a href="hoodies.html">Hoodies</a>
+      <a href="hats.html">Hats</a>
+      <a href="t-shirts.html">T-Shirts</a>
+      <a href="shorts.html">Shorts</a>
+      <a href="shoes.html">Shoes</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search products..." />
+    </div>
+  </header>
+
+  <main class="cart-main">
+    <h1 class="cart-title">Your Shopping Cart</h1>
+
+    <div class="cart-items">
+      <!-- Example item structure below. In a full site, this would be dynamically generated. -->
+      <div class="cart-item">
+        <img src="img/shirt1-front.jpg" alt="Basic T-Shirt" class="cart-item-img" />
+        <div class="cart-item-info">
+          <p class="item-name">Basic T-Shirt</p>
+          <p class="item-size">Size: M</p>
+          <p class="item-price">$29.99</p>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+      <!-- More items would appear here if added. -->
+    </div>
+
+    <div class="cart-summary">
+      <p class="total-label">Total:</p>
+      <p class="total-price">$29.99</p>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 QuickPick. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

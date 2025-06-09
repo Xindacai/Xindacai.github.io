@@ -4,8 +4,31 @@
   --text-color: #333333;
   --light-gray: #f5f5f5;
   --font-primary: 'Lexend', sans-serif;
+  /* I used the Lexend font for my category texts at the top of the webpage because it has a sleek
+  and digital-looking appearance, so I think it's a great choice to use for navigation category 
+  titles. */
+
+  /* I also used this font for my product names under each thumbnail because it makes those texts
+  clean and easily readable, while also matching the look of the category links. */
+
   --font-secondary: 'Work Sans', sans-serif;
+  /* I used the Work Sans font for the texts in my search bar because it is light, clean, and
+  non-distracting, making it a good choice to use for functional UI elements like the search
+  bar, as it doesn't stand out too much visually. */
+
+  /* I also used this font for my footer text because I also want it to stand out less as it's
+  not part of my webpage's main content and only part of the reference at the bottom of the 
+  page. */
+
   --font-display: 'Roboto Slab', serif;
+  /* I used the Roboto Slab font for my logo because it looks bold and stylish, while not
+  abstract enough to be difficult to read, making it the perfect choice for a modern commercial
+  logo. */
+
+  /* I also used this font for my production titles above each row of thumbnails because its
+  stylish design makes the text maintain visual hierarchy above the thumbnails. Additionally,
+  it matches my logo, which is a good choice for the website's overall design as both the
+  production titles and the logo as part of my webpage's major visual attractions. */
 }
 
 /* All of these fonts align with my intention of creating a professional, modern shopping site
@@ -80,6 +103,27 @@ body {
   should be large enough to be easily visible, I don't want them to visually stand out more 
   than my logo and product section titles. */
   text-align:center; 
+}
+
+.product-section {
+  margin-bottom: 2.8rem;
+/* This adds more vertical spacing between my top and bottom rows of thumbnails, which avoids
+my design looking overcrowded. */  
+}
+
+.section-title {
+  font-family: var(--font-display); 
+  font-size: 1.6rem;
+  /* I also made the text size for my product titles above each row of thumbnails quite large and
+  bold, as almost equally large and bold compared to my logo text. Because they are part of the 
+  website's major visual attraction, as they act as headings for the products in each row of 
+  thumbnails on my homepage and category pages. */
+  font-weight: 700;
+  text-align:center;
+  color: var(--accent-color);
+  margin: 2rem auto 1rem;
+  max-width: 1200px;
+  padding: 0 2rem;
 }
 
 .main-nav a:hover {
@@ -196,10 +240,6 @@ to see it. */
   align-self: flex-start;
   /* This command makes sure that the button's background wouldn't become overstretched across the
   screen. */
-  text-decoration: none;        
-  /* My Add to Cart button's text originally had some strange underlines before because I set it 
-  as a clickable link. So this command removes that underline and makes my button's text look 
-  cleaner. */
 }
 
 .add-to-cart-btn:hover {

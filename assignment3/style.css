@@ -4,6 +4,7 @@
   --text-color: #333333;
   --light-gray: #f5f5f5;
   --font-primary: 'Lexend', sans-serif;
+  /* I used the Lexend font for  */
   --font-secondary: 'Work Sans', sans-serif;
   --font-display: 'Roboto Slab', serif;
 }
@@ -54,8 +55,8 @@ body {
 
 .logo:hover {
   opacity: 0.85;  
-  /* This gives my logo a subtle visual feedback of increased transparency when being hovered on, 
-  which reminds the user that the element is selected and they can click on it to explore the 
+  /* This gives my logo subtle visual feedback of increased transparency when being hovered on, 
+  which reminds the user that the element is selected, and they can click on it to explore the 
   homepage. */
 }
 
@@ -103,7 +104,7 @@ my design looking overcrowded. */
 .main-nav a:hover {
   color: #888;
   /* This gives my category texts at the top of the page a subtle visual feedback of color change 
-  when being hovered on, which reminds the user that the element is selected and they can click on 
+  when being hovered on, which reminds the user that the element is selected, and they can click on 
   it to explore the page of each category. */
 }
 
@@ -141,7 +142,10 @@ my design looking overcrowded. */
 
 .product-card:hover {
   transform: translateY(-4px);
-  /* This make my thumbnail images move slightly upwards when being hovered on */
+  /* This gives my thumbnail images subtle visual feedback of moving slightly upwards when 
+  being hovered on, which reminds the user that the element is selected, and they can click on
+  it to explore the pages that provide additional information and the Add to Cart function for
+  each product. */
 }
 
 .product-img {

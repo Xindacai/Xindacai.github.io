@@ -54,8 +54,9 @@ body {
 
 .logo:hover {
   opacity: 0.85;  
-  /* This gives my logo a subtle visual feedback when being hovered on, which reminds the user
-  that the element is selected and they can click on it to explore another page. */
+  /* This gives my logo a subtle visual feedback of increased transparency when being hovered on, 
+  which reminds the user that the element is selected and they can click on it to explore the 
+  homepage. */
 }
 
 .main-nav a {
@@ -101,6 +102,9 @@ my design looking overcrowded. */
 
 .main-nav a:hover {
   color: #888;
+  /* This gives my category texts at the top of the page a subtle visual feedback of color change 
+  when being hovered on, which reminds the user that the element is selected and they can click on 
+  it to explore the page of each category. */
 }
 
 .search-bar input {

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basic T-Shirt - QuickPick</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Work+Sans:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="main-header">
+  <a href="index.html" class="logo">QuickPick</a>
+  <nav class="main-nav">
+    <a href="#">Hoodies</a>
+    <a href="#">Hats</a>
+    <a href="#">T-Shirts</a>
+    <a href="#">Shorts</a>
+    <a href="#">Shoes</a>
+  </nav>
+  <div class="search-bar">
+    <input type="text" placeholder="Search products..." />
+  </div>
+</header>
+
+<main class="product-detail">
+  <!-- Product Detail Section -->
+  <div class="product-detail-container">
+    <!-- This section includes a large visual of the product to give the user full view of what they’re potentially purchasing.
+         The large image reinforces confidence and helps users focus on the product experience. -->
+    <div class="product-images">
+      <img src="img/shirt1-front.jpg" alt="Basic T-Shirt Front" class="main-product-img">
+    </div>
+
+    <!-- Product Info Section -->
+    <div class="product-info">
+      <!-- Title and description of the product with consistent font and spacing to maintain branding clarity -->
+      <h1 class="product-title">Basic T-Shirt</h1>
+      <p class="product-price">$29.99</p>
+      <p class="product-description">
+       <!-- This Basic T-Shirt offers a clean, minimal design with breathable fabric and a comfortable fit. Ideal for everyday wear. 
+        Available in multiple colors and sizes. -->
+      </p>
+
+      <!-- 'Add to Cart' button is part of the core interaction for any shopping platform. 
+           The visual feedback on hover/click adds intuitiveness and trust in the action. -->
+      <button class="add-to-cart-btn">Add to Cart</button>
+
+      <!-- Optional size selector for realism -->
+      <label for="size-select" class="size-label">Select Size:</label>
+      <select id="size-select" class="size-dropdown">
+        <option value="">Choose size</option>
+        <option value="s">Small</option>
+        <option value="m">Medium</option>
+        <option value="l">Large</option>
+        <option value="xl">XL</option>
+      </select>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2025 QuickPick. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

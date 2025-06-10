@@ -46,6 +46,21 @@
     </nav>
     <div class="search-bar">
       <input type="text" id="search-bar" placeholder="Search products..." />
+      <script>
+  document.getElementById('search-bar').addEventListener('input', function () {
+    const query = this.value.toLowerCase();
+    const products = document.querySelectorAll('.product-card');
+
+    products.forEach(function (card) {
+      const name = card.querySelector('.product-name').textContent.toLowerCase();
+      if (name.includes(query)) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+</script>
     </div>
    <!-- My website's chosen context of a commercial website and action of using clicks for 
    navigation influeced me to add a search bar to my page. Because it makes the user's 

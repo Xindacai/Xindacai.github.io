@@ -27,7 +27,22 @@
     <a href="shoes.html">Shoes</a>
   </nav>
   <div class="search-bar">
-    <input type="text" id="search-bar" placeholder="Search products..." />>
+    <input type="text" id="search-bar" placeholder="Search products..." />
+    <script>
+  document.getElementById('search-bar').addEventListener('input', function () {
+    const query = this.value.toLowerCase();
+    const products = document.querySelectorAll('.product-card');
+
+    products.forEach(function (card) {
+      const name = card.querySelector('.product-name').textContent.toLowerCase();
+      if (name.includes(query)) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+</script>
   </div>
 </header>
 

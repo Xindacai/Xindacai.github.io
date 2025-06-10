@@ -1,0 +1,81 @@
+<!-- This is the layout of my product pages that will show additional information and options about 
+ a particular product, such as extra images, a description, the sizes, and the pricing. There will
+ also be an "Add to Cart" button on the page, which acts as the purchase function. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basic T-Shirt - QuickPick</title>
+  <link rel="stylesheet" href="product.css" />
+  <link rel="stylesheet" href="global.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Work+Sans:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <!-- My product pages use the same combination of fonts as my homepage and category pages
+  to provide a sense of organisation. -->
+</head>
+<body>
+
+<header class="main-header">
+  <a href="index.html" class="logo">QuickPick</a>
+  <nav class="main-nav">
+    <a href="hoodies.html">Hoodies</a>
+    <a href="hats.html">Hats</a>
+    <a href="t-shirts.html">T-Shirts</a>
+    <a href="shorts.html">Shorts</a>
+    <a href="shoes.html">Shoes</a>
+  </nav>
+  <div class="search-bar">
+    <input type="text" placeholder="Search products..." />
+  </div>
+</header>
+
+<main class="product-detail">
+  <!-- This is the main section for the product page. -->
+  <div class="product-detail-container">
+    <!-- A large photo of the product will be included in the section, and my chosen context of
+     a commercial website influenced me to add a visual as part of the product page's design.
+     Because it gives the user a large and clear view of what they’re potentially purchasing 
+     before they make up their mind. The large image reinforces confidence and helps 
+     users focus on the product experience. -->
+    <div class="product-images">
+      <img src="IMG_5369.JPG" class="product-img main-product-img">
+    </div>
+
+    <!-- This section provides additional information for the product below its image. -->
+    <div class="product-info">
+      <h1 class="product-title">Black Snow Boots</h1>
+      <p class="product-price">$36.61</p>
+      <p class="product-description">
+        
+    <!-- I added the title, description, and pricing of the product with consistent font 
+      and spacing between each text element to maintain branding clarity. --> 
+      </p>
+
+      <label for="size-select" class="size-label">Select Size:</label>
+      <select id="size-select" class="size-dropdown">
+        <option value="">Choose size</option>
+        <option value="s">Small</option>
+        <option value="m">Medium</option>
+        <option value="l">Large</option>
+        <option value="xl">XL</option>
+        <!-- I added an optional size selector for each product at the bottom of the product page
+        because this feature makes my website function more realistically and professionally as
+        a shopping website, which aligns with my chosen context. -->    
+      </select>
+    <a href="cart.html" class="add-to-cart-btn">Add to Cart</a>
+    <!-- My chosen context of a commercial website influenced me to add the 'Add to Cart' button 
+    near the bottom of my products page because it is one of the core interaction features for any 
+    shopping platform. Clicking on the button will bring the user to a cart page where they can
+    see their selected item. --> 
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2025 QuickPick. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

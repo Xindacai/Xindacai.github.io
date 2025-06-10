@@ -207,6 +207,12 @@ my design looking overcrowded. */
   font-family: var(--font-primary);
   font-size: 1rem;
   padding: 0.75rem 0;
+  max-width: 180px;       /* Optional: Controls the width of the text block */
+  margin: 0 auto;
+  text-align: center;
+  word-wrap: break-word;  /* Breaks long words if needed */
+  white-space: normal;    /* Allows line breaks */
+  overflow: visible;      /* Shows the full content */
 }
 
 .site-footer {

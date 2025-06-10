@@ -52,7 +52,12 @@ body {
   align-items: center;
   padding: 1.2rem 2rem;
   background-color: var(--light-gray);
+  /* Since my main background is white, I used light gray for the main header's background at the
+top of the webpage. This way, the user can easily distinguish between the header and body sections
+of the website. */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* I added a bit of box shadow on the edge of the main header's background so the shadow can
+  act as a borderline that further sets the main header section apart from the body section. */
 }
 
 .logo {
@@ -239,4 +244,21 @@ my design looking overcrowded. */
   So, I want them to stand out the least. */
   color: #666;
 ... (2 lines left)
+  /* I also used a light grey background for the footer section because on one hand, it matches
+  the background I used for the header section which creates visual consistency. On the other hand
+  it sets a clear distinction against the plain white background of the webpage's body section, so
+  when the user scrolls down on the website, they can easily spot the footer section and know
+  where the webpage ends */
+
+  /* Throughout the prototype, my color design was able to clearly distinguish the header and footer
+  sections against the body section, and this was one of my creative intentions from our presentation
+  in week 11. */
 }
+
+/* I primarily aimed for a simplistic color design for the website. I didn't include a large variety
+of bright colors in my webpage because I don't want to visually overwhelm my users, especially those
+with sensory difficulties. Instead, I only used a simple color combination of white, black, and
+grey, which created good contrast throughout my webpage design and gives the user a modern and simple
+feeling which aligns with my chosen context because all professional commercial websites are built
+in simple color designs with a clean layout, which makes their text elements easily readable and
+visually comfortable for the user. */

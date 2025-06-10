@@ -14,6 +14,17 @@
   text-align: center;
 }
 
+.product-img {
+  width: 100%;
+  max-width: 250px; 
+  /* This command is used to restrict how wide the product image can go in my products page. */
+  height: auto;
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 .main-product-img {
   width: 100%;
   max-width: 500px;
@@ -31,7 +42,6 @@
   padding: 1rem;
 }
 
-/* Product title */
 .product-title {
   font-family: var(--font-display);
   font-size: 2rem;
@@ -52,7 +62,6 @@ to see it. */
   margin-bottom: 1.5rem;
 }
 
-/* Product description */
 .product-description {
   font-family: var(--font-secondary);
   font-size: 1rem;
@@ -129,12 +138,17 @@ to see it. */
 }
 
 /*
-This CSS ensures the product page visually aligns with the homepage and category pages, maintaining a clean, professional, and organized user experience.
+This CSS ensures that each of my product page visually aligns with the homepage and category 
+pages, maintaining a clean, professional, and organized user experience.
 
-- Fonts are reused consistently across text elements to build branding identity.
-- The layout prioritizes product visuals and essential interaction features like size selection and "Add to Cart".
-- Responsiveness ensures the layout remains functional across screen sizes.
-- Hover effects offer subtle feedback without overwhelming the user.
+Throughout my webpage, fonts are reused consistently across different text elements to build 
+branding identity.
 
-These design choices are based on standard UI/UX practices for commercial shopping websites and reflect the user-first goals discussed in the presentation.
+My website's layout prioritizes product visuals and essential interaction features like size 
+selection and "Add to Cart".
+
+I used hover effects to offer subtle feedback without overwhelming the user.
+
+These design choices are inspired by standard UI/UX practices for commercial shopping websites and 
+reflect my user-first goals which I have discussed in the presentation.
 */

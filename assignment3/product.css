@@ -67,6 +67,9 @@ to see it. */
   font-size: 1rem;
   margin-bottom: 2rem;
   line-height: 1.6;
+  /* I made my product description texts very small and light compared to the product title and
+  pricing texts because it is part of the body texts, so I don't want them to stand out as much
+  as my titles or subheading texts. */
 }
 
 .size-label {

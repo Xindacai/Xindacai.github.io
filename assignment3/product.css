@@ -30,6 +30,9 @@
   max-width: 500px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem; 
+  /* I moved the image down a little bit so it becomes more in line with the text elements on the
+  right. */
 }
 
 /* Right side info styling */

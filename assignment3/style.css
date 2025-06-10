@@ -159,10 +159,35 @@ my design looking overcrowded. */
   background-color: #fff;
   border: 1px solid #eee;
   border-radius: 8px;
+  /* Border radius is added so the edges of my thumbnails won't look so rough. */
   overflow: hidden;
   text-align: center;
   cursor: pointer;
+  /* Cursor changes to pointer when hovered over the thumbnail for subtle visual feedback
+  that the thumbnail is selected. */
   transition: transform 0.2s ease;
+  position: relative;
+}
+
+.product-card .hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  /* This is added to create a hover effect where the product image changes when hovered on.
+   This feature visually enhances the browsing experience, allowing users to preview the product
+   from a different angle. It aligns with my commercial context by giving shoppers more visual
+   feedback, helping them make better-informed choices. */
+}
+
+.product-card:hover .hover-img {
+  opacity: 1;
+}
+
+.product-card:hover .front-img {
+  opacity: 0;
 }
 
 .product-card:hover {
